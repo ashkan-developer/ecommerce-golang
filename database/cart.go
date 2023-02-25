@@ -9,7 +9,7 @@ var (
 	ErrCantUpdateUser     = errors.New("cannot add this product to the cart")
 	ErrCantRemoveItemCart = errors.New("cannot remove this item from the cart ")
 	ErrCantGetItem        = errors.New("was unable to get the item from the cart")
-	ErrCantGetItem        = errors.New("cannot update the purchase")
+	ErrCantBuyCartItem    = errors.New("cannot update the purchase")
 )
 
 func AddProductToCart() {

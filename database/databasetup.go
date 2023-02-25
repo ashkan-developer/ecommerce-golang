@@ -34,7 +34,7 @@ func DBSet() *mongo.Client {
 	return client
 }
 
-var client *mongo.Client = DBSet()
+var Client *mongo.Client = DBSet()
 
 func UserData(client *mongo.Client, collectionName string) *mongo.Collection {
 	var collection *mongo.Collection = client.Database("Ecommerce").Collection(collectionName)
